@@ -24,7 +24,6 @@ tags
 /build-aux
 /config.*
 /configure
-/configure.h*
 /libtool
 /m4
 /stamp-h1

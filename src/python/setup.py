@@ -29,7 +29,7 @@ from Cython.Distutils import build_ext
 
 setup(
 	name = "seccomp",
-	version = os.environ["VERSION_RELEASE"],
+	version = 1,
 	description = "Python binding for libseccomp",
 	long_description = "Python API for the Linux Kernel's syscall filtering capability, seccomp.",
 	url = "https://github.com/seccomp/libseccomp",
@@ -41,7 +41,7 @@ setup(
 	ext_modules = [
 		Extension("seccomp", ["seccomp.pyx"],
 			# unable to handle libtool libraries directly
-			extra_objects=["../.libs/libseccomp.a"],
+                        extra_objects=[os.environ["SECCOMP_PATH"]],
 			# fix build warnings, see PEP 3123
 			extra_compile_args=["-fno-strict-aliasing"])
 	]
