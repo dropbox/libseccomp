@@ -37,12 +37,8 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
-
-/* Define to 1 if your C compiler doesn't accept -c and -o together. */
-/* #undef NO_MINUS_C_MINUS_O */
 
 /* Name of package */
 #define PACKAGE "libseccomp"
@@ -54,7 +50,7 @@
 #define PACKAGE_NAME "libseccomp"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "libseccomp 0.0.0"
+#define PACKAGE_STRING "libseccomp 2.3.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "libseccomp"
@@ -63,10 +59,10 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.0.0"
+#define PACKAGE_VERSION "2.3.1"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "0.0.0"
+#define VERSION "2.3.1"
