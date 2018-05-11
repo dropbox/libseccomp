@@ -37,9 +37,9 @@ extern "C" {
  * version information
  */
 
-#define SCMP_VER_MAJOR		0
-#define SCMP_VER_MINOR		0
-#define SCMP_VER_MICRO		0
+#define SCMP_VER_MAJOR		2
+#define SCMP_VER_MINOR		4
+#define SCMP_VER_MICRO		1
 
 struct scmp_version {
 	unsigned int major;
